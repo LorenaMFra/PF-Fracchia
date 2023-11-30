@@ -83,6 +83,12 @@ footer ul li {
 .logo-carrousel img {
   opacity: 0.6; }
 
+.carousel-indicators [data-bs-target] {
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin: 0 5px;
+ }
+
 .frase {
   margin: auto;
   padding: 80px;

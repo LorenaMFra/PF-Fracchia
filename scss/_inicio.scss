@@ -8,6 +8,15 @@
 .logo-carrousel img {
     opacity: 0.6;
   }
+
+  .carousel-indicators [data-bs-target] {
+    border: 1px solid white;
+    box-sizing: border-box;
+    // border-radius: 10px;
+    width: 20px;
+    height: 4px;
+    margin: 0 6px;
+}
   
   .frase {
     margin: auto;
