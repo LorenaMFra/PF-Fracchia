@@ -1,7 +1,7 @@
-# PF: _Terapias Almar - Espacio Holístico_
+# PF: _**Terapias Almar** - Espacio Holístico_
 **CURSO CODERHOUSE - DESARROLLO WEB**
 
-### 🛠 Proyecto Final:
+### 🛠 Proyecto Final
 Desarrollarás un sitio web responsive compuesto por 5 páginas de un 
 tema a tu elección. La web será diseñada enteramente por tí. 
 Usarás FlexBox, Grids y frameworks como Bootstrap, para 
@@ -31,4 +31,4 @@ Deberás entregar la versión final de tu sitio cargada al servidor con acceso d
 
  [@LorenaMFra](https://github.com/LorenaMFra)
  
- # PF-Fracchia
+
