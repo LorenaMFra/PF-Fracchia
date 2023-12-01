@@ -99,7 +99,7 @@ footer ul li {
 
 /* INICIO */
 .logo-carrousel img {
-  opacity: 0.6; }
+  opacity: 0.9; }
 
 .carousel-indicators [data-bs-target] {
   border: 1px solid white;
@@ -107,6 +107,10 @@ footer ul li {
   width: 20px;
   height: 4px;
   margin: 0 6px; }
+
+.FondoOscuro {
+  background-color: #15001562;
+  border-radius: 15px; }
 
 .frase {
   margin: auto;
@@ -161,23 +165,6 @@ footer ul li {
     color: #673268; }
 
 /* CURSOS */
-@keyframes AnimAgranda {
-  0% {
-    color: #673268;
-    transform: scale(1); }
-  50% {
-    color: #b173b3;
-    transform: scale(1.2); }
-  100% {
-    color: #673268;
-    transform: scale(1); } }
-
-@keyframes aparecer {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
 .cursos h2 {
   color: #673268;
   animation: AnimAgranda 2s; }
@@ -192,7 +179,7 @@ footer ul li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  animation: aparecer 2s; }
+  animation: AnimAparece 2s; }
 
 .card {
   border: solid 2px #673268;

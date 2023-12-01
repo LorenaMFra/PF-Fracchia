@@ -49,8 +49,11 @@
         </div>
 
         <!-- CARROUSEL -->
+
         <div id="carouselExampleAutoplaying" class="carousel slide w-100 m-auto mb-4 mt-0" data-bs-ride="carousel"
             data-bs-interval="3000">
+
+            <!-- Indicadores de imágenes del carrousel -->
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Diapositiva 1"></button>
@@ -58,23 +61,64 @@
                     aria-label="Diapositiva 2"></button>
                 <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
                     aria-label="Diapositiva 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
                     aria-label="Diapositiva 4"></button>
             </div>
-            <div class="carousel-inner">
+
+            <!-- Imágenes del carrousel -->
+            <div class="carousel-inner ">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="./img/carrousel/carrousel tarot.jpg" class="d-block w-100" alt="tarot">
+                    <img src="./img/carrousel/carrousel pendulo.jpg" class="d-block w-100" alt="pendulo">
+                    <div class="carousel-caption d-sm-block animate__animated animate__rotateIn logo-carrousel">
+                        <img src="./img/Logo blanco.png" class="" width="50%" alt="logo Terapias Almar blanco">
+                    </div>
                 </div>
+
+                <div class="carousel-item " data-bs-interval="3000">
+                    <img src="./img/carrousel/carrousel tarot.jpg" class="d-block w-100" alt="tarot">
+
+                    <div
+                        class="carousel-caption FondoOscuro text-sm-center text-md-end p-md-5 mb-md-5 animate__animated animate__backInDown">
+                        <h2 class="fs-2 fst-italic">Cursos y Talleres</h2>
+                        <p class="lead d-none d-sm-block"> Aprende a conectar con tu yo interior, a interpretar tu
+                            linaje <br>
+                            y abre las puertas a la guía angelical a través de nuestras <br>
+                            capacitaciones y espacio holístico para equilibrar la energía <br>
+                            y mejorar tu bienestar integral. Sumate a Terapias Almar <br>
+                            para una experiencia única. Apúntate a nuestros cursos.</p>
+                        <a href="./pages/cursos.html"><button type="button" class="btn btn-outline-light">Más
+                                info</button></a>
+                    </div>
+                </div>
+
                 <div class="carousel-item" data-bs-interval="3000">
                     <img src="./img/carrousel/carrousel sahumo.jpg" class="d-block w-100" alt="sahumo">
+
+                    <div
+                        class="carousel-caption FondoOscuro text-sm-center text-md-start p-md-5 mb-md-5 mb-sm-1 animate__animated animate__backInDown">
+                        <h2 class="fs-2 fst-italic">Sesiones</h2>
+                        <p class="lead d-none d-sm-block"><br>Una amplia gama de terapias alternativas para equilibrar <br>
+                            la energía, sanar y mejorar tu bienestar integral. <br>
+                            Sumate a Terapias Almar para una experiencia única. <br>
+                            Consultá las opciones en ésta web!</p>
+                        <a href="./pages/sesiones.html"><button type="button" class="btn btn-outline-light">Más
+                                info</button></a>
+                    </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="./img/carrousel/carrousel pendulo.jpg" class="d-block w-100" alt="pendulo">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
+
+                <div class="carousel-item " data-bs-interval="3000">
                     <img src="./img/carrousel/carrousel cuenco.jpg" class="d-block w-100" alt="cuenco">
+                    <div
+                        class="carousel-caption FondoOscuro text-center p-md-5 mb-md-5 mb-sm-5 animate__animated animate__backInDown">
+                        <h2 class="fs-2 ">Seguí a Terapias Almar</h2>
+                        <a href="https://www.facebook.com/terapiaslamar?ref=embed_page" target="_blank"><img
+                                src="./img/icons8-facebook-32.png" alt="logo Facebook" height="47px"></a>
+                        <a href="https://www.instagram.com/amoresdetarot/" target="_blank"><img
+                                src="./img/icons8-instagram-32.png" alt="logo Instagram" height="54px"></a>
+                    </div>
                 </div>
             </div>
+            <!-- Botones de avance y retroceso del carrousel -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -85,9 +129,6 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-            <div class="carousel-caption  d-sm-block animate__animated animate__rotateIn logo-carrousel">
-                <img src="./img/Logo blanco.png" class="" width="50%" alt="logo Terapias Almar blanco">
-            </div>
         </div>
 
         <section class="row">
