@@ -1,66 +1,82 @@
 /* CURSOS */
 
 @keyframes AnimAgranda {
-    0% {
-      color: $color-violeta-almar;
-      transform: scale(1);
-    }
-  
-    50% {
-      color: #b173b3;
-      transform: scale(1.2);
-    }
-  
-    100% {
-      color: $color-violeta-almar;
-      transform: scale(1);
-    }
+  0% {
+    color: $color-violeta-almar;
+    transform: scale(1);
   }
-  
-  .cursos {
-    h2 {
-      color: $color-violeta-almar;
-      animation: AnimAgranda 3s;
-    }
-  
-    p {
-      @include text-center-italic;
-      color: $color-azul-almar;
-    }
+
+  50% {
+    color: #b173b3;
+    transform: scale(1.2);
   }
-  
-  .card-cursos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+
+  100% {
+    color: $color-violeta-almar;
+    transform: scale(1);
   }
-  
-  .card {
-    border: solid 2px $color-violeta-almar;
-  
-    h5 {
-      color: $color-violeta-almar;
-    }
-  
-    &:hover {
-      box-shadow: 5px 5px 20px $color-violeta-almar;
-      transform: translateY(-2%);
-    }
-  
-    .btn:hover {
-      background-color: $color-violeta-almar;
-      border: $color-violeta-almar;
-    }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
   }
-  
-  .modal-content {
-    background-color: #feecff;
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.cursos {
+  h2 {
+    color: $color-violeta-almar;
+    animation: AnimAgranda 2s;
+  }
+
+  p {
+    @include text-center-italic;
+    color: $color-azul-almar;
+  }
+}
+
+.card-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  animation: aparecer 2s;
+}
+
+.card {
+  border: solid 2px $color-violeta-almar;
+  box-shadow: 4px 4px 10px $color-violeta-almar;
+
+  h5 {
+    color: $color-violeta-almar;
+  }
+
+  &:hover {
+    box-shadow: 10px 10px 20px $color-violeta-almar;
+    transform: translateY(-2%);
     border: solid 3px $color-violeta-almar;
+
+    h5 {
+      font-style: italic;
+    }
   }
-  
-  .modal-footer a {
-    text-decoration: none;
-    color: black;
+
+  .btn:hover {
+    background-color: $color-violeta-almar;
+    border: $color-violeta-almar;
   }
-  
+}
+
+.modal-content {
+  background-color: #feecff;
+  border: solid 3px $color-violeta-almar;
+}
+
+.modal-footer a {
+  text-decoration: none;
+  color: black;
+}

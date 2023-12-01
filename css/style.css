@@ -1,4 +1,22 @@
 @charset "UTF-8";
+/* Keyframes*/
+@keyframes AnimAparece {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes AnimAgranda {
+  0% {
+    color: #673268;
+    transform: scale(1); }
+  50% {
+    color: #b173b3;
+    transform: scale(1.2); }
+  100% {
+    color: #673268;
+    transform: scale(1); } }
+
 * {
   margin: 0;
   padding: 0;
@@ -86,8 +104,9 @@ footer ul li {
 .carousel-indicators [data-bs-target] {
   border: 1px solid white;
   box-sizing: border-box;
-  margin: 0 5px;
- }
+  width: 20px;
+  height: 4px;
+  margin: 0 6px; }
 
 .frase {
   margin: auto;
@@ -112,19 +131,13 @@ footer ul li {
   box-shadow: 3px 3px 20px #673268; }
 
 /* ACERCA DE MI */
-@keyframes AnimAparece {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 5; } }
-
 .img-acercademi {
   margin-top: 10px;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: AnimAparece 5s; }
+  animation: AnimAparece 3s; }
 
 .texto-acercademi {
   padding: 40px;
@@ -159,9 +172,15 @@ footer ul li {
     color: #673268;
     transform: scale(1); } }
 
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 .cursos h2 {
   color: #673268;
-  animation: AnimAgranda 3s; }
+  animation: AnimAgranda 2s; }
 
 .cursos p {
   text-align: center;
@@ -172,15 +191,20 @@ footer ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  animation: aparecer 2s; }
 
 .card {
-  border: solid 2px #673268; }
+  border: solid 2px #673268;
+  box-shadow: 4px 4px 10px #673268; }
   .card h5 {
     color: #673268; }
   .card:hover {
-    box-shadow: 5px 5px 20px #673268;
-    transform: translateY(-2%); }
+    box-shadow: 10px 10px 20px #673268;
+    transform: translateY(-2%);
+    border: solid 3px #673268; }
+    .card:hover h5 {
+      font-style: italic; }
   .card .btn:hover {
     background-color: #673268;
     border: #673268; }

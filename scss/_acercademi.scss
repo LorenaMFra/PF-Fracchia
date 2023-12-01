@@ -1,13 +1,4 @@
 /* ACERCA DE MI */
-@keyframes AnimAparece {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 5;
-    }
-  }
   
   .img-acercademi {
     margin-top: 10px;
@@ -15,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: AnimAparece 5s;
+    animation: AnimAparece 3s;
   }
   
   .texto-acercademi {

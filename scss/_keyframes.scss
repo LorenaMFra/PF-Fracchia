@@ -1,0 +1,28 @@
+/* Keyframes*/
+
+@keyframes AnimAparece {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes AnimAgranda {
+    0% {
+      color: $color-violeta-almar;
+      transform: scale(1);
+    }
+  
+    50% {
+      color: #b173b3;
+      transform: scale(1.2);
+    }
+  
+    100% {
+      color: $color-violeta-almar;
+      transform: scale(1);
+    }
+  }
